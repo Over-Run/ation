@@ -1,0 +1,31 @@
+buildscript {
+    repositories {
+        maven { url "https://maven.aliyun.com/repository/public/" }
+        mavenCentral()
+    }
+}
+
+apply plugin: 'eclipse'
+apply plugin: 'maven-publish'
+
+version = "0.0.1-alpha"
+group = ""
+archivesBaseName = "ation"
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(11) // 8, 11, 16, 17
+
+repositories {
+    maven { url "https://maven.aliyun.com/repository/public/" }
+    maven { url 'https://repo.maven.apache.org/maven2' }
+    maven { url 'https://dvs1.progwml6.com/files/maven' }
+    mavenCentral()
+}
+
+dependencies {
+    // compileOnly fg.deobf("")
+    // runtimeOnly fg.deobf("")
+}
+
+
+
+
