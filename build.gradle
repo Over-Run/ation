@@ -16,8 +16,6 @@ java.toolchain.languageVersion = JavaLanguageVersion.of(11) // 8, 11, 16, 17
 
 repositories {
     maven { url "https://maven.aliyun.com/repository/public/" }
-    maven { url 'https://repo.maven.apache.org/maven2' }
-    maven { url 'https://dvs1.progwml6.com/files/maven' }
     mavenCentral()
 }
 
