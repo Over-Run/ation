@@ -9,7 +9,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 version = "0.0.1-alpha"
-group = ""
+group = "org.overrun.ation"
 archivesBaseName = "ation"
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(11) // 8, 11, 16, 17
